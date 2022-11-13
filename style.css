@@ -1,0 +1,16 @@
+body {
+    background-color: aquamarine;
+}
+
+.item {
+    background-color: gray;
+}
+
+.carousel-item {
+    animation: animatedImage 5s linear infinite;
+}
+
+@keyframes animatedImage {
+    0% { left: 2000px;}
+   100% { left: -2000px;}
+}
